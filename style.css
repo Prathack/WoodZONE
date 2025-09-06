@@ -1,0 +1,888 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #000; */
+}
+.nav1{
+    height: 55px;
+    width: 100%;
+    /* background-color: forestgreen; */
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.nav-left img{
+    width: 170px;
+    height: 20px;    
+}
+.nav-right{
+    display: flex;
+    margin-right: 27px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-right i{
+    color: #000;
+    margin-right: 3px;
+    font-size: 22px;
+}
+
+.nav2{
+    height: 45px;
+    width: 100%;
+    background-color: orange; 
+    padding: 20px;
+    gap: 2px;
+    justify-content: space-between;
+    display: flex;
+}
+.nav2 a{
+    text-decoration: none;
+    width: 90%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    gap: 2px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav2 a:hover{
+    color: #0000009b;
+    transition: 0.1s;
+}
+.photo{
+    width: 100%;
+    height: 440px;
+    position: absolute;
+
+    background-color: #06acc6;
+}
+
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    object-position: center;
+}
+.page1 h1{
+    position: relative;
+    margin-left: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 44px;
+}
+.page1 p{
+    position: relative;
+    margin-top: -270px;
+    font-size: 20px;
+    margin-left: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.page1 button{
+    position: relative;
+    margin-top: -200px;
+    height: 36px;
+    width: 109px;
+    margin-top: 4px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    filter: drop-shadow(0px 0px 2px #000);
+    margin-left: 90px;
+    background-color: orange;
+    cursor: pointer;
+}
+.icon{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-top: 438px;
+    gap: 90px;
+    justify-content: center;
+}
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 39px;
+}
+.icon p{
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 40px;
+}
+
+
+/* yaha se page2 chalu ho rha hai  */
+
+
+.page2{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #c2156e; */
+}
+
+.nav3{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 80px;
+}
+.links{
+    display: flex;
+    gap: 40px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+.links a{
+    text-decoration: none;
+    color: black
+}
+.links a:hover{
+    color: orange;
+}
+
+.badi{
+    width: 70%;
+    height: 495px;
+    display: flex;
+    margin-left: 185px;
+    margin-top: -25px;
+    /* background-color: #0982df; */
+    /* filter: drop-shadow(0px 0px 2px #000); */
+    flex-direction: column;
+    
+}
+.section1{
+    width: 100%;
+    height: 58.5%;
+    display: flex;
+    /* background-color: hotpink; */
+}
+.left1{
+    width: 59.6%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+}
+.right1{
+    width: 39.5%;
+    height: 100%;
+    margin-left: 1%;
+    /* background-color: rgb(12, 170, 36); */
+}
+
+.section2{
+    width: 100%;
+    margin-top: 1%;
+    height: 39.5%;
+    display: flex;
+    /* background-color: #0cd105; */
+}
+.left2{
+    width: 32%;
+    height: 100%;
+    /* background-color: #0cb4d1; */
+    
+}
+.center2{
+    width: 32%;
+    height: 100%;
+    /* background-color: #0cf310; */
+    margin-left: 2%;
+}
+.right2{
+    width: 32%;
+    height: 100%;
+    /* background-color: #e50f53; */
+    margin-left: 2%;
+}
+.left1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.left2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.center2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* yaha se page 3 chalu ho rha hai */
+
+
+
+
+
+
+.page3{
+    width: 100vw;
+    height: 67vh;
+    position: absolute;
+    margin-top: 40px;
+    background-color: #06acc6; 
+}
+.page3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -360px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 130px;
+}
+.content h3{
+    color: white;
+    font-size: 25px;
+}
+.content h1{
+    color: white;
+    font-size: 75px;
+}
+/* .btn1{
+    display: flex;
+    gap: 20px;
+} */
+.btn1 button{
+    height: 65px;
+    background-color: orange;
+    border-radius: 9px;
+    border: none;
+    color: white;
+    filter: drop-shadow(0px 0px 2px #000);
+    filter: brightness(0.94);
+    width: 65px;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+.btn2{
+    height: 38px;
+    width: 120px;
+    background-color: #fff;
+    color: orange;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    justify-content: center;
+    margin-top: 27px;
+    cursor: pointer;
+    margin-left: 520px;
+}
+.btn2 h5:hover{
+    color: black;
+}
+
+
+
+.page4{
+    width: 100vw;
+    height: 170vh;
+    background-color: white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.nav4{
+    height: 8px;
+    margin-top: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px;
+    background-color: white;
+}
+.nav4 h1{
+    margin-top: 198px;
+    font-size: 20px;
+
+}
+.arrow{
+    margin-top: 1198px;
+    font-size: 22px;
+    /* position: absolute; */
+}
+.arrow :hover{
+    color: orange;
+    cursor: pointer;
+}
+.big{
+    height: 600px;
+    margin-left: 120px;
+    width: 80%;
+    /* background-color: red; */
+}
+.up{
+    width: 100%;
+    height: 49.5%;
+    display: flex;
+    /* background-color: blanchedalmond; */
+}
+.down{
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    height: 49.5%;
+    /* background-color: rgb(241, 148, 9); */
+}
+.og1{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(196, 195, 195);
+    margin-left: 0.5%;
+}
+.og1 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.og2{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(196, 195, 195);
+    margin-left: 1%;
+}
+.og3{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(196, 195, 195);
+    margin-left: 1%;
+}
+.og4{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(196, 195, 195);
+    margin-left: 1%;
+    margin-right: 0.5%;
+}
+.og5{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(196, 195, 195);
+    margin-left: 0.5%;
+}
+.og6{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(196, 195, 195);
+    margin-left: 1%;
+}
+.og7{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(196, 195, 195);
+    margin-left: 1%;
+}
+.og8{
+    height: 100%;
+    width: 24%;
+    background-color: rgb(196, 195, 195);
+    margin-left: 1%;
+    margin-right: 0.5%;
+}
+.og2 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.og3 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.og4 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.og5 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.og6 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.og7 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.og8 img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.info1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.info1 span{
+    color: orange;
+}
+.info2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.info2 span{
+    color: orange;
+}
+.info3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.info3 span{
+    color: orange;
+}
+.info4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.info4 span{
+    color: orange;
+}
+.info5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.info5 span{
+    color: orange;
+}
+.info6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.info6 span{
+    color: orange;
+}
+.info7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.info7 span{
+    color: orange;
+}
+.info8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+.info8 span{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+.page5{
+    width: 100vw;
+    height: 60vh;
+    background-color: #120ca9;
+    margin-top: -150px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.page5 img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.8);
+    object-fit: cover;
+}
+.page5 h1{
+    color: white;
+    margin-top: -10px;
+    position: relative;
+    font-size: 38px;
+    
+}
+.page5 h2{
+    color: white;
+    margin-top: -200px;
+    font-size: 25px;
+    position: relative;
+}
+
+
+.page6{
+    width: 100vw;
+    height: 124vh;
+    background-color: white; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -70px;
+    background-color: white;
+}
+
+
+.nav5{
+    height: 100px;
+    margin-top: 300px;
+    position: relative;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0px 120px 13px 140px;
+    background-color: white;
+}
+.nav5 h1{
+    margin-top: 18px;
+    font-size: 20px;
+
+}
+.arrow{
+    margin-top: 18px;
+    font-size: 22px;
+}
+.arrow :hover{
+    color: orange;
+    cursor: pointer;
+}
+.big2{
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 80%;
+    margin-left: 140px;
+    margin-top: 20px;
+
+}
+.left-part{
+    height: 100%;
+    width: 49.5%;
+    /* background-color: darkgoldenrod; */
+}
+.left-part img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+
+
+.right-part{
+    height: 100%;
+    margin-left: 1%;
+    width: 49.5%;
+    /* background-color: rgb(37, 146, 160); */
+}
+.right-part img{
+    height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.up-part{
+    height: 49.5%;
+    /* background-color: darkmagenta; */
+    width: 100%;
+}
+.up-part img{
+    height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.down-part{
+    height: 49.5%;
+    /* background-color: darkmagenta; */
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+}
+.down-part img{
+    height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.ulta{
+    height: 100%;
+    width: 49.5%;
+    /* background-color: darkorange; */
+}
+.ulta img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+.sidha{
+    height: 100%;
+    width: 49.5%;
+    margin-left: 1%;
+    /* background-color: darkorchid; */
+}
+.sidha img{
+    height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+
+
+.page7{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: forestgreen; */
+}   
+/* yaha se page 7 chalu ho rha hai  */
+
+.nav6{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    display: flex;
+    padding:  0px 120px 13px 140px;
+    background-color: rgb(255, 255, 255);
+}
+.nav6 h1{
+     font-size: 20px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 488px;
+    width: 80%;
+    margin-left: 120px;
+    margin-top: -20px;
+    display: flex;
+    /* background-color: red; */
+    
+}
+
+.part1{
+    height: 100%;
+    width: 32%;
+    border-radius: 20px;
+    margin-left: 0.5%;
+    background-color: rgb(255, 255, 255);
+}
+.part2{
+    height: 100%;
+    border-radius: 20px;
+    width: 32%;
+    margin-left: 1.5%;
+    background-color: rgb(255, 255, 255);
+}
+.part3{
+    height: 100%;
+    width: 32%;
+    margin-left: 1.5%;
+    margin-right: 0.5%;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.part1 img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.part2 img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+.part3 img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+
+}
+.kalu1{
+    margin-left: 10px;
+}
+.kalu1 h4{
+    margin-top: 9px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.kalu1 p{
+    font-size: 14px;
+    color: #000000c8;
+}
+.kalu1 span{
+    color: orange;
+    
+
+}
+
+.kalu3{
+    margin-left: 10px;
+}
+.kalu3 h4{
+    margin-top: 9px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.kalu3 p{
+    font-size: 14px;
+    color: #000000c8;
+
+}
+.kalu3 span{
+    color: orange;
+}
+.kalu2{
+    margin-left: 10px;
+}
+.kalu2 h4{
+    margin-top: 9px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.kalu2 p{
+    font-size: 14px;
+    color: #000000c8;
+}
+.kalu2 span{
+    color: orange;
+}
+
+.page8{
+    background-color: rgb(147, 142, 142);
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+.bhalu{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    /* background-color: darkslategrey; */
+}
+.alu1{
+    width: 33%;
+    height: 100%;
+    margin-left: 0.5%;
+    flex-direction: column;   
+}
+.alu2{
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(38, 71, 206); */
+}
+.alu3{
+    width: 33%;
+    height: 100%;
+    margin-right: 0.5%;
+    /* background-color: rgb(108, 184, 37); */
+}
+.alu1 img{
+    margin-top: 60px;
+    height: 24px;
+    margin-bottom: 10px;
+    width: 160px;
+    margin-left: 20px;
+}
+.call{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.alu1 p{
+    margin-left: 20px;
+    margin-top: 7px;
+    width: 300px;
+}
+.location{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 270px;
+
+}
+.alu2 h4{
+    margin-top: 60px;
+    height: 24px;
+    margin-bottom: 20px;
+    width: 160px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.alu2 p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.alu3 h4{
+    margin-top: 60px;
+    height: 24px;
+    margin-bottom: 20px;
+    width: 160px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.alu3 p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
